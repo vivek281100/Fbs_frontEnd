@@ -1,0 +1,36 @@
+.booking{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 56%);
+width: 100%;
+height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.bookinginputs{
+    display: flex;
+    gap: 1rem;
+}
+.bookinginputs label{
+    
+    margin-left: 10px;
+    color: white;
+}
+.bookinginputs input{
+    width: 150px;
+    height: 20px;
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom-color:white;
+    border-bottom-style: solid;
+    
+
+    
+}
+input::selection{
+    border: none;
+
+}

@@ -1,8 +1,23 @@
+.bookingcontainer{
+    background: url("https://th.bing.com/th/id/R.be550e34d713022bc1d35ae929a7db6f?rik=mjx7Ss7dQl4egA&riu=http%3a%2f%2fi.huffpost.com%2fgen%2f1552035%2fimages%2fo-AIRPLANE-facebook.jpg&ehk=gRR%2f55VDU6nBJjxMNJ5CBLen0QKGuWvoYy8%2b1SySJKA%3d&risl=&pid=ImgRaw&r=0");
+   background-repeat: none;
+   background-size: cover;
+   background-blend-mode:exclusion;
+   
+    height: 450px;
+align-items: center;
+justify-content: center;
+padding-top: 70px;
+
+
+}
+
 .booking{
-    background-color: #8BC6EC;
-    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 56%);
-width: 100%;
+    background: transparent;
+    
+width: 80%;
 height: 150px;
+margin-left: 10%;
     display: flex;
     align-items: center;
     justify-content: space-around;

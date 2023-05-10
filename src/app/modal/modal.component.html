@@ -1,0 +1,12 @@
+<div class="model">
+    <div *ngIf="displaysignin">
+    <app-sign-in *ngIf="displaysignin"></app-sign-in>
+    <p> New Here? <a (click)="displaySignin()" >Get your account now!!</a></p>
+    </div>
+    <div *ngIf="!displaysignin">
+    <app-sign-up ></app-sign-up>
+    <p> <a (click)="displaySignin()" >Sign in!!</a></p>
+    </div>
+    <hr>
+    
+</div>
